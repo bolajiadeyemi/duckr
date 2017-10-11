@@ -1,5 +1,5 @@
 export default function auth() {
-    return new Promose((resolve, reject) => {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
              resolve({
               name:'Bolaji Adeyemi',

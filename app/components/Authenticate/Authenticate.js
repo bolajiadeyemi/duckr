@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 import { centeredContainer, largeHeader, errorMsg } from 'sharedStyles/styles.css';
+import { FacebookAuthButton } from 'components';
 
 Authenticate.PropTypes ={
   error: PropTypes.string.isRequired,
