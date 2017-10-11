@@ -4,7 +4,9 @@ import CreateClass from 'create-react-class';
 const MainContainer = CreateClass({
   render () {
     return (
-      <p >{'Hello Ade Bolji!'}</p>
+     <div>
+     {this.props.children}
+     </div>
       )
   },
 })
